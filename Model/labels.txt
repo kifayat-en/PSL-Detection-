@@ -1,0 +1,37 @@
+0 Alif
+1 Bay
+2 Pay
+3 Tey
+4 Tay
+5 Thay
+6 Jeem
+7 Chay
+8 Hey
+9 Khay
+10 Daal
+11 Ddaal
+12 Dhaal
+13 Ray
+14 aRay
+15 Zay
+16 Djay
+17 Seen
+18 Sheen
+19 Suaad
+20 Dhuaad
+21 Toay'n
+22 Zoay'n
+23 Ain
+24 Ghain
+25 Fay
+26 Quaaf
+27 Kaaf
+28 Gaaf
+29 Laam
+30 Meem
+31 Noon
+32 Vao
+33 Hay
+34 Hamza
+35 Chooti yeh
+36 Bari yeh
