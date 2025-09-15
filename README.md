@@ -15,6 +15,10 @@ This project aims to build a Pakistan Sign Language (PSL) detection model using 
 - TensorFlow.js<br>
 - MobileNet (Transfer Learning)<br>
 - Web Browser (for training)<br>
+- OpenCV, Mediapipe (Computer Vision Libraries) <br>
+- gTTS/pyttsx3 (Text-to-Speech Voice Tools) <br>
+
+
 
 
 
