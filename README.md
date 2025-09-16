@@ -1,4 +1,25 @@
 Dataset : https://www.kaggle.com/datasets/hasaniqbal777/pakistan-sign-language/data
+ ┌─────────────────────────────┐
+ │ Pakistan Sign Language App  │
+ └─────────────────────────────┘
+              │
+              ▼
+       ┌────────────┐
+       │   Input    │
+       │   (Sign)   │
+       └────────────┘
+              │
+              ▼
+  ┌──────────────────────┐
+  │  AI Model (Detect)   │
+  │  Deep Learning (CNN) │
+  └──────────────────────┘
+              │
+              ▼
+ ┌─────────────────────────┐
+ │ Output: Text + Speech   │
+ │ (e.g., "Alif", "Bay")   │
+ └─────────────────────────┘
 
 
 # PSL-Detection-
@@ -20,33 +41,6 @@ This project aims to build a Pakistan Sign Language (PSL) detection model using 
 - OpenCV, Mediapipe (Computer Vision Libraries) <br>
 - gTTS/pyttsx3 (Text-to-Speech Voice Tools) <br>
 
-## Pakistan Sign Language (PSL) Detection — Workflow
-
-Below is the high-level workflow for the PSL detection system built using Google Teachable Machine and a simple web/desktop integration:
-
-```mermaid
-flowchart TD
-  A[1. Data Collection] --> B[2. Data Labeling]
-  B --> C[3. Preprocessing]
-  C --> D[4. Train Model (Teachable Machine)]
-  D --> E[5. Export Model (TensorFlow / TF.js)]
-  E --> F[6. Integration & Inference]
-  F --> G[7. Post-processing & Smoothing]
-  G --> H[8. Application / UI]
-  subgraph PreprocessingDetails
-    C1[Resize & Crop Hands] --> C2[Normalize / Augment]
-  end
-  subgraph IntegrationDetails
-    F1[Load TF.js model in browser] --> F2[Use webcam or uploaded image]
-    F2 --> F3[Run inference per frame]
-  end
-
-  C --> PreprocessingDetails
-  F --> IntegrationDetails
-
-  %% Notes nodes
-  Note1([Note: Use diverse subjects, lighting variations, plain background]) --> A
-  Note2([Tip: Keep labels consistent and >=100 images per class]) --> B
 
 
 
