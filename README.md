@@ -1,24 +1,24 @@
 Dataset : https://www.kaggle.com/datasets/hasaniqbal777/pakistan-sign-language/data
  ┌─────────────────────────────┐
- │ Pakistan Sign Language App  │
+ │ Pakistan Sign Language App  │<br>
  └─────────────────────────────┘
-              │
-              ▼
+              │<br>
+              ▼<br>
        ┌────────────┐
-       │   Input    │
+       │   Input    │ <br>
        │   (Sign)   │
        └────────────┘
               │
               ▼
   ┌──────────────────────┐
-  │  AI Model (Detect)   │
+  │  AI Model (Detect)   │<br>
   │  Deep Learning (CNN) │
   └──────────────────────┘
               │
               ▼
  ┌─────────────────────────┐
  │ Output: Text + Speech   │
- │ (e.g., "Alif", "Bay")   │
+ │ (e.g., "Alif", "Bay")   │<br>
  └─────────────────────────┘
 
 
